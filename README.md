@@ -4,8 +4,7 @@ Explain what this code in <code>admin.php</code> does, line by line, in plain, c
 >Context: A page called login.php asks for a username and password.  If the password is correct, it redirects the user to <code>admin.php</code>.
 
 ### Task 2
-Improve this database (adjust fields, data format, tables, order, field types, etc).  Output a new "create table" script.
->SQL for creating table does not have to include data, just structure.
+Given the table below, improve the structure of this databse (adjust fields, data format, tables, order, field types, etc).
 
 ```sql
 CREATE TABLE employee_info (
@@ -24,6 +23,10 @@ CREATE TABLE employee_info (
 	start_date VARCHAR(11)
 );
 ```
+
+Answer should be a new "CREATE TABLE" script.
+>SQL for creating table does not have to include data, just structure.
+
 Sample output from <code>employee_info</code> table:
 ```bash
 Employees
