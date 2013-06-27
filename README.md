@@ -5,7 +5,7 @@
 3. submit pull request including your answer files
 
 ### Task 1
-Explain what this code in <code>admin.php</code> does, line by line, in plain, concise english.  Identify as many bugs as you can and why they are bugs.
+Explain what the code in <code>admin.php</code> does, line by line, in plain, concise english.  Identify as many bugs as you can and why they are bugs.
 >Context: A page called login.php asks for a username and password.  If the password is correct, it redirects the user to <code>admin.php</code>.
 
 **Task 1 Answer: submit PR for an updated <code>admin.php</code> with your comments**
