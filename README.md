@@ -4,9 +4,27 @@ Explain what this code in <code>admin.php</code> does, line by line, in plain, c
 >Context: A page called login.php asks for a username and password.  If the password is correct, it redirects the user to <code>admin.php</code>.
 
 ### Task 2
-Improve this database (adjust fields, data format, tables, order, etc).
->Format answer the same form as the sample data data.
+Improve this database (adjust fields, data format, tables, order, field types, etc).  Output a new "create table" script.
+>SQL for creating table does not have to include data, just structure.
 
+```sql
+CREATE TABLE employee_info (
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(64),
+	email1 VARCHAR(64),
+	email2 VARCHAR(128),
+	password VARCHAR(14),
+	company_name VARCHAR(128),
+	company_phone CHAR(11),
+	company_address VARCHAR(128),
+	job_title CHAR(256),
+	salary VARCHAR(10),
+	permission_level VARCHAR(32),
+	is_permission_level_active VARCHAR(10),
+	start_date VARCHAR(11)
+);
+```
+Sample output from <code>employee_info</code> table:
 ```bash
 Employees
 id, username, email1, email2, password, company_name, company_phone, company_address, job_title, salary, permission_level, is_permission_level_active, start_date
@@ -18,3 +36,4 @@ id, username, email1, email2, password, company_name, company_phone, company_add
 
 ### Task 3
 After improving the database, write a raw sql statement that gets the username, first email, start_date, salary, and company_name for all active admins from your new database format.
+>This should be written in SQL, not PHP.
