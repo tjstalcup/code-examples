@@ -1,6 +1,6 @@
 ##code-examples
 ### Task 1
-Explain what this code in [admin.php](https://github.com/madsec/code-examples/admin.php) does, line by line, in plain, concise english.  Identify as many bugs as you can and why they are bugs.
+Explain what this code in <code>admin.php</code> does, line by line, in plain, concise english.  Identify as many bugs as you can and why they are bugs.
 >Context: A page called login.php asks for a username and password.  If the password is correct, it redirects the user to <code>admin.php</code>.
 
 ### Task 2
