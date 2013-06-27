@@ -4,13 +4,13 @@
 2. provide answers to tasks in the form of new code
 3. submit pull request including your answer files
 
-### Task 1
+#### Task 1
 Explain what the code in <code>admin.php</code> does, line by line, in plain, concise english.  Identify as many bugs as you can and why they are bugs.
 >Context: A page called login.php asks for a username and password.  If the password is correct, it redirects the user to <code>admin.php</code>.
 
 **Task 1 Answer: submit PR for an updated <code>admin.php</code> with your comments**
 
-### Task 2
+#### Task 2
 Given the table below, improve the structure of this databse (adjust fields, data format, tables, order, field types, etc).
 
 ```sql
@@ -46,7 +46,7 @@ id, username, email1, email2, password, company_name, company_phone, company_add
 
 **Task 2 Answer: submit PR with a new file <code>db.sql</code> with your SQL statement(s)**
 
-### Task 3
+#### Task 3
 After improving the database, write a raw sql statement that gets the username, first email, start_date, salary, and company_name for all active admins from your new database format.
 >This should be written in SQL, not PHP.
 
